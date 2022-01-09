@@ -1,0 +1,119 @@
+body {
+    color: black;
+    margin: 0%;
+}
+
+header {
+    background-color: rgb(32, 159, 218);
+    font-size: 1rem;
+    margin: 0%;
+    padding: 2%;
+    text-align: center;
+}
+
+h1 {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder
+}
+
+main {
+    background-color:cornsilk;
+    margin: 0%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+}
+
+input{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #myBtn {
+    background-color: black;
+    border-radius: 9%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+  }
+
+ul {
+    padding: 0%;
+}
+
+li {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 10px;
+    list-style: none;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+li:hover {
+    color: red;
+}
+
+
+.checkboxClass {
+
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    
+}
+
+.done{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: greenyellow;
+    border: 1px solid black;
+    
+    color: blue;
+    text-align: center;
+}
+
+.deleteBox{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    
+    border: 2px solid black;
+   
+    color: blue;
+    text-align: center;
+}
+#fieldset{
+    background-color: rgb(32, 159, 218);
+    margin-top: 20px;
+    max-width: 70%;
+    min-width: 70%;
+    height: 60%;
+}
+#removeAll{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5%;
+}
